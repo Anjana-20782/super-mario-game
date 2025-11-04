@@ -1,0 +1,22 @@
+body{
+
+     background: linear-gradient(to right, #87cbbf, #a4add3);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-top: 20px;
+  color: #1d1d1d;
+}
+.game-contain{
+width: 90%;
+height: 60vh;
+background-color: rgb(255, 255, 255);
+border: 4px solid #3b3b3b;
+border-radius: 15px;
+margin: 30px auto;
+/* position: relative; */
+/* overflow: hidden; */
+}
