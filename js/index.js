@@ -3,7 +3,7 @@ let play = document.getElementById("play");
 
 let x = 100;
 let y = 100;
-let jump = 20;
+let jump = 40;
 
 function movePlay(direction) {
   let width = game.offsetWidth;

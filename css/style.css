@@ -1,6 +1,6 @@
 body{
 
-     background: linear-gradient(to right, #87cbbf, #a4add3);
+     background: linear-gradient(to right, #adc5c0, #bcc2db);
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin: 0;
@@ -19,16 +19,23 @@ border-radius: 15px;
 margin: 30px auto;
 position: relative;
 overflow: hidden;
+background-image: url('../images/pixel-2d-retro-8-bit-only-stairs-game-background_730604-1270.avif');
+background-repeat: repeat-x;      
+background-size: cover;
 }
 #play{
 width: 60px;
 height: 60px;
 border-radius: 50%;
-background:radial-gradient(circle at 30% 30%,#ff3d00,#b71c1c);
 position: absolute;
-left: 100px;
-bottom: 100px;
+left: 90px;
+bottom: 130px;
 transition: all 0.2 ease;
+background-image: url('../images/small-super-mario-game-character-png-29.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+    pointer-events: none;
 }
 .controls {
   margin-top: 40px;
