@@ -18,7 +18,7 @@ border: 4px solid #3b3b3b;
 border-radius: 15px;
 margin: 30px auto;
 position: relative;
-/* overflow: hidden; */
+overflow: hidden;
 }
 #play{
 width: 60px;
@@ -28,7 +28,7 @@ background:radial-gradient(circle at 30% 30%,#ff3d00,#b71c1c);
 position: absolute;
 left: 100px;
 bottom: 100px;
-/* transition: all 0.2 ease; */
+transition: all 0.2 ease;
 }
 .controls {
   margin-top: 40px;
@@ -52,7 +52,7 @@ bottom: 100px;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  /* transition: 0.2s; */
+  transition: 0.2s;
 }
 
 button:hover {
