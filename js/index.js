@@ -35,3 +35,11 @@ document.getElementById("up").addEventListener("click", () => movePlay("up"));
 document.getElementById("down").addEventListener("click", () => movePlay("down"));
 document.getElementById("left").addEventListener("click", () => movePlay("left"));
 document.getElementById("right").addEventListener("click", () => movePlay("right"));
+
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "w" || e.key === "W") movePlay("up");
+  if (e.key === "s" || e.key === "S") movePlay("down");
+  if (e.key === "a" || e.key === "A") movePlay("left");
+  if (e.key === "d" || e.key === "D") movePlay("right");
+});
