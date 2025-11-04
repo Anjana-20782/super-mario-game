@@ -30,3 +30,32 @@ left: 100px;
 bottom: 100px;
 /* transition: all 0.2 ease; */
 }
+.controls {
+  margin-top: 40px;
+}
+ 
+.control-row {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+ button {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  /* transition: 0.2s; */
+}
+
+button:hover {
+  background: rgb(193, 192, 192);
+  color: white;
+} 

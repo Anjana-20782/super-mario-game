@@ -29,3 +29,10 @@ function movePlay()
         x+=jump
     }
 }
+
+
+function updatePosition()
+{
+    play.style.left=`${x}px`
+    play.style.bottom=`${y}px`
+}
